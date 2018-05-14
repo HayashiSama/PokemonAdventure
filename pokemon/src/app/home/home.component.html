@@ -1,0 +1,28 @@
+
+
+<div class="home-block">
+ <div class="container">
+  <img class="map" src="https://cdn.bulbagarden.net/upload/thumb/4/43/HGSS_Kanto.png/787px-HGSS_Kanto.png">
+  <button class="forest" [hidden]="forestCheck" (click)="go('forest')">Viridian Forest</button>
+   <button class="mountain" [hidden]="mountainCheck" (click)="go('mountain')">Mt Moon</button>
+   <button class="power" [hidden]="powerCheck" (click)="go('power')">Power Plant</button>
+ </div>
+ <div class="row sub justify-content-center">
+ 	<div class="status-sec col-sm-4"> 
+ 		Trainer Name: {{user.username}} <br>
+ 		Level: {{user.level}} <br>
+ 		Stamina: {{user.stamina}} <br>
+ 		Money: {{user.money}}<br>
+ 		PokeBucks: {{user.pokebucks}}<br>
+ 		
+ 		
+ 	</div>
+ 	<div class="menu col-sm-4"> 
+ 		<button class="menu-button" (click)="active()"> Select Active Pokemon </button> 
+ 		<button class="menu-button" (click)="gacha()"> Get New Pokemon </button> 
+ 		<button class="menu-button"> Get PokeBucks</button>
+ 		<button class="menu-button" (click)="logout()"> Logout </button>  
+ 	</div>
+ </div>
+
+</div> 

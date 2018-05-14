@@ -1,0 +1,26 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.active-block{
+	font-family: "Pokemon";
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #71c7ec, #005073);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #71c7ec, #005073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+height:1000px;
+padding : 50px 0;
+}
+.error{color:red; margin-top: 5px}
+.banner-sec{background:url()  no-repeat left bottom; background-size:cover; min-height:400px; border-radius: 0 10px 10px 0; padding:0;}
+.container{padding: 10px; background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1); height: 500px;}
+.selected{height: 196px; width:196px; margin-left: auto; margin-right:auto;}
+.left_sec{}
+.active{ margin-bottom: 10px; margin-top: auto; width: 240px; height:36px; font-size: 16pt; color: #454543; margin: 1px; border: 2px solid #71687b; border-radius: 5px;}
+.left_sec h4{margin-bottom:24px; font-weight:800; font-size:30px; color: #189ad3;}
+.left_sec h4:after{content:" "; width:100px; height:5px; background:#189ad3; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.left_sec {text-align: center}
+
+.right_sec h4{margin-bottom:30px; font-weight:800; font-size:24px; color: #189ad3;}
+.right_sec h4:after{content:" "; width:150px; height:3px; background:#189ad3; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.right_sec {text-align: center;}
+.pokebox { width: 100%; height:100%;}
+.icon {width: 96px; height: 96px; margin: 0px; display: inline-block;}

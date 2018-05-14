@@ -1,0 +1,24 @@
+
+
+<div class="register-block">
+ <div class="container">
+  <div class="row">
+   <div class="col register-sec">
+    <h2 class="text-center">New Account</h2>
+ 	 <div class="form-group">
+      <label for="exampleInputEmail1" class="text-uppercase" >Username</label>
+      <input type="text" class="form-control" placeholder="" [(ngModel)]="username">
+    </div>
+    <div class="form-group">
+     <label for="exampleInputPassword1" class="text-uppercase" >Password</label>
+     <input type="password" class="form-control" placeholder="" [(ngModel)]="password">
+    </div>
+     <button class="btn btn-login" (click)="registerButton()">Register</button>
+     <button class="btn btn-login" (click)="cancelButton()">Cancel</button>
+   </div> 
+  </div>
+   <p class = "error">{{error}} </p> 
+ </div>
+
+</div>
+

@@ -1,0 +1,57 @@
+
+
+  <div class="login-block">
+    <div class="container">
+  <div class="row">
+    <div class="col-md-4 login-sec">
+        <h2 class="text-center">Login</h2>
+      
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="text-uppercase" >Username</label>
+    <input type="text" class="form-control" placeholder="" [(ngModel)]="username">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="text-uppercase" >Password</label>
+    <input type="password" class="form-control" placeholder="" [(ngModel)]="password">
+  </div>
+  <button class="btn btn-login" (click)="registerButton()">Register</button>
+  <button class="btn btn-login" (click)="submitButton()">Submit</button>
+   
+  <div class="error">{{error}}</div>
+  
+
+</div>
+    <div class="col-md-8 banner-sec">
+      <div class = "carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="inactive"></li>
+
+                  </ol>
+            <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2>World of Pokemon!</h2>
+            <p> Created by Peter. None of the artwork is mine :(</p>
+        </div>  
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2>Version 1.0</h2>
+            <p>Just the first version.</p>
+        </div>  
+    </div>
+    </div>
+  
+            </div>     
+        
+    </div>
+  </div>
+</div>

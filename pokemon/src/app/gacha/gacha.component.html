@@ -1,0 +1,17 @@
+
+
+<div class="register-block">
+ <div class="container">
+ 	<div class="banner">
+  	<h2> Gacha !!! </h2>
+	  	<div class = "imgblock" [style.visibility]="disabled ? 'visible' : 'hidden'">
+	  		<img src ={{pokemon}} class="rolled" ><br>
+	  	</div>
+	  	<p class="err">{{error}}<p>
+  		<button  class="roll" (click)="rollGacha()"> Roll! </button>
+  		<button class="roll" (click)="goHome()"> Go Home </button>
+
+  </div>
+ </div>
+</div>
+{{error}}  

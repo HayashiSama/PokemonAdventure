@@ -1,0 +1,41 @@
+
+ 
+
+
+  <div class="active-block">
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-4 login-sec">
+    			<div class="left_sec">
+    				<h4> Pokemon </h4>
+	    			<img class="selected" src={{active.image}}>
+	    			<p> Moves </p>
+	    			<li *ngFor="let move of active.moves"> {{move}}</li> <br>
+
+	    			<button  class="active" (click)="makeActive()"> Make Active </button>
+	    		</div>
+
+    		</div>
+  
+
+	
+		    <div class="col-md-8 banner-sec">
+		    	<div class = "right_sec">
+			    	<h4> Pokemon Box </h4>
+			    	<div class="row pokebox">
+			    	<div class="icon" *ngFor="let poke of pokemon">
+						<img src={{poke.image}} (click)="showSelected(poke)">
+					</div>
+					
+					</div>
+					<button class="active" (click)="goHome()"> Go Home </button>
+				</div>
+			</div>
+
+		            
+                 
+        
+    	</div>
+
+    </div>
+  </div>

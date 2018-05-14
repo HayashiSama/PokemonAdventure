@@ -1,0 +1,14 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.prebattle-block{
+    background: #000;  /* fallback for old browsers */
+font-family: "Pokemon";
+float:left;
+width:100%;
+height:1000px;
+padding : 50px 0px;
+}
+
+.area-image{margin:auto; max-height: 300px; width:100% ; max-width:510px; }
+.image-container{position: relative; margin-left: auto; margin-right:auto; max-height: 300px; max-width:510px; }
+.shadow{position:absolute; width:100%; height: 100%; box-shadow: 0px 0px 50px 25px  black inset; top: 0; left: 0;}
+.message-box{color:white; margin-top: 25px}

@@ -1,0 +1,24 @@
+<div class="battle-block">
+	<div class="container justify-content-center">
+		<div class="img-block">
+			<img class="battle_image" src={{area_image}}>
+			<div class = "shadow"></div>
+			<img class="enemy" src={{enemyPokeSprite}}>
+			<img class="yours" src={{yourPokeSprite}}>
+			<p class="yourNameLabel"> {{yourPokemonName}} </p>
+			<p class="enemyNameLabel"> {{enemyPokemonName}} </p>
+			<p class="yourHp"> {{yourPokeHp}} </p>
+			<p class="enemyHp"> {{enemyPokeHp}} </p>
+		</div>
+		<div class="menu_block">
+			<button class="battle_button"  (click)="fight(0)" [style.visibility]="disabled[0] ? 'hidden' : 'visible' "> {{movelist[0]}}</button>
+			<button class="battle_button" (click)="fight(1)" [style.visibility]="disabled[1] ? 'hidden' : 'visible'"> {{movelist[1]}}</button>
+			<button class="battle_button" (click)="fight(2)" [style.visibility]="disabled[2] ? 'hidden' : 'visible'"> {{movelist[2]}}</button>
+			<button class="battle_button" (click)="fight(3)"[style.visibility]="disabled[3] ? 'hidden' : 'visible'"> {{movelist[3]}}</button>
+		</div>
+		<div class ="log">
+			{{message}}
+		</div>
+		
+	</div>
+</div>

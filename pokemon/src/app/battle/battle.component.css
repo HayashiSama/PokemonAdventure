@@ -1,0 +1,23 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.battle-block{
+    background: #000;  /* fallback for old browsers */
+font-family: "Pokemon";
+float:left;
+width:100%;
+height:1000px;
+padding : 50px 0px;
+}
+
+.img-block {max-width: 720px; max-height:336px; position: relative; margin-left: auto; margin-right:auto; } 
+.battle_image{width: 100%; width: 100%;}
+.enemy {position: absolute; top: 20%; left: 60%; height: 196px; width: 196px;}
+.yours {position: absolute; top: 55%; left: 13%; height: 196px; width: 196px;}
+.shadow {position:absolute; width:100%; height: 100%; box-shadow: 0px 0px 25px 15px  black inset; top: 0; left: 0;}
+.yourNameLabel{color: white; position: absolute; top:60%; left: 18%;}
+.enemyNameLabel{color: white; position: absolute; top:24%; left:65%;}
+.yourHp{color: white; position: absolute; top:60%; left: 28%;}
+.enemyHp{color: white; position: absolute; top:24%; left:74%;}
+.menu_block {background-color: #f8f8f8; padding:10px; margin-top: 25px; width: 720px; margin-left: auto; margin-right: auto; border-radius: 5px;
+	border: 5px solid #71687b;}
+.battle_button { width: 240px; height:36px; font-size: 16pt; color: #454543; margin: 1px; border: 2px solid #71687b; border-radius: 5px;}
+.log {color: white; width: 680px; margin-left: auto; margin-right: auto; font-size: 16pt; text-align: center}
